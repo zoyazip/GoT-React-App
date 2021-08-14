@@ -3,7 +3,7 @@ import ItemList from '../itemList';
 import ItemDetails, {Field} from '../itemDetails';
 import ErrorMessage from '../error/errorMessage';
 import gotService from '../../services/gotService';
-import RowBlock from '../../rowBlock';
+import RowBlock from '../rowBlock';
 
 export default class HousesPage extends Component {
     gotService = new gotService();
